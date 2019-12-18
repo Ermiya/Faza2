@@ -1,0 +1,55 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faza.Treasury.Shared", "Faza.Treasury.Shared\Faza.Treasury.Shared.csproj", "{2E2043FF-DA3D-4278-AAFB-2A3B20974404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faza.Treasury.Data", "Faza.Treasury.Data\Faza.Treasury.Data.csproj", "{ABCCEFB3-1ED3-4D8B-A6F3-71A6AE7763E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faza.Treasury.Common", "Faza.Treasury.Common\Faza.Treasury.Common.csproj", "{FE7332CB-3079-4B04-9BFF-3BE909401FEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faza.Treasury.Business", "Faza.Treasury.Business\Faza.Treasury.Business.csproj", "{F6FC4EA9-9FEF-414E-A36E-665694CC9DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faza.Treasury.Facade", "Faza.Treasury.Facade\Faza.Treasury.Facade.csproj", "{AD558BAC-EA67-4670-95FB-4769A5C84806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Faza.Treasury.Service.WebApi", "Faza.Treasury.Service.WebApi\Faza.Treasury.Service.WebApi.csproj", "{888459C8-B680-4B16-A8D9-D469CD58BC59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E2043FF-DA3D-4278-AAFB-2A3B20974404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2043FF-DA3D-4278-AAFB-2A3B20974404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2043FF-DA3D-4278-AAFB-2A3B20974404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2043FF-DA3D-4278-AAFB-2A3B20974404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCCEFB3-1ED3-4D8B-A6F3-71A6AE7763E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCCEFB3-1ED3-4D8B-A6F3-71A6AE7763E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCCEFB3-1ED3-4D8B-A6F3-71A6AE7763E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCCEFB3-1ED3-4D8B-A6F3-71A6AE7763E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7332CB-3079-4B04-9BFF-3BE909401FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7332CB-3079-4B04-9BFF-3BE909401FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7332CB-3079-4B04-9BFF-3BE909401FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7332CB-3079-4B04-9BFF-3BE909401FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FC4EA9-9FEF-414E-A36E-665694CC9DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FC4EA9-9FEF-414E-A36E-665694CC9DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FC4EA9-9FEF-414E-A36E-665694CC9DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FC4EA9-9FEF-414E-A36E-665694CC9DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD558BAC-EA67-4670-95FB-4769A5C84806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD558BAC-EA67-4670-95FB-4769A5C84806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD558BAC-EA67-4670-95FB-4769A5C84806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD558BAC-EA67-4670-95FB-4769A5C84806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888459C8-B680-4B16-A8D9-D469CD58BC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888459C8-B680-4B16-A8D9-D469CD58BC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888459C8-B680-4B16-A8D9-D469CD58BC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888459C8-B680-4B16-A8D9-D469CD58BC59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B7D01B1-C8CA-4EA1-B35F-99BE9BD4457D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+"Symbol":"Treasury",
+"ConnectionString":"",
+"Identity":{
+	"Url": "",
+	"Username":"",
+	"Password":"",
+	"Token":""
+	}
+
+}
