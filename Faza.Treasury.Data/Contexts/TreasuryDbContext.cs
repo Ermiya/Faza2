@@ -14,7 +14,7 @@ namespace Faza.Treasury.Data.Contexts
 {
     public class TreasuryDbContext : LoggerDbContext, IDbContext
     {
-        public TreasuryDbContext() : base() { }
+        public TreasuryDbContext() : base("data source=(localdb)\\MSSQLLocalDB;initial catalog=Treasury2;Integrated Security=SSPI;MultipleActiveResultSets=True;App=EntityFramework") { }
         public TreasuryDbContext(string connectionString) : base(connectionString) { }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
