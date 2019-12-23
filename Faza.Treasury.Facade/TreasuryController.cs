@@ -94,8 +94,8 @@ namespace Faza.Treasury.Facade
                 }
                 identityClientService.Token = Configuration.Identity.Token;
             }
-            authenticator = new Authenticator(token, Configuration.Symbol, identityClientService);
-            authFilter.SetAuthenticator(authenticator);
+            //authenticator = new Authenticator(token, Configuration.Symbol, identityClientService);
+            //authFilter.SetAuthenticator(authenticator);
         }
         protected override ITreasuryDataAdapter GetAdapter()
         {

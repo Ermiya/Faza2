@@ -14,7 +14,7 @@ namespace Faza.Treasury.Data.Contexts
 {
     public class TreasuryDbContext : LoggerDbContext, IDbContext
     {
-        public TreasuryDbContext() : base("data source=(localdb)\\MSSQLLocalDB;initial catalog=Treasury2;Integrated Security=SSPI;MultipleActiveResultSets=True;App=EntityFramework") { }
+        public TreasuryDbContext() :  base("data source=(localdb)\\MSSQLLocalDB;initial catalog=Treasury;Integrated Security=SSPI;MultipleActiveResultSets=True;App=EntityFramework") { }
         public TreasuryDbContext(string connectionString) : base(connectionString) { }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -22,6 +22,6 @@ namespace Faza.Treasury.Data.Contexts
 
             base.OnModelCreating(modelBuilder);
         }
-        public virtual DbSet<Bank> Banks { get; set; }        //--Entity public virtual DbSet<__EntityName__> __EntityNames__ { get; set; }
+        public virtual DbSet<Bank> Banks { get; set; }        public virtual DbSet<BankBranch> BankBranchs { get; set; }        //--Entity public virtual DbSet<__EntityName__> __EntityNames__ { get; set; }
     }
 }

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Bank.cs" />
+    <Compile Include="Entities\BankBranch.cs" />
     <Compile Include="Entities\__Entity__.cs" />
     <Compile Include="Interfaces\ITreasuryDataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

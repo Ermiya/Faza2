@@ -130,6 +130,7 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\ApiController.cs" />
+    <Compile Include="Controllers\BankBranchController.cs" />
     <Compile Include="Controllers\BankController.cs" />
     <Compile Include="Controllers\__Entity__Controller.cs" />
     <Compile Include="Global.asax.cs">

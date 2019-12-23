@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\BankBranchRepository.cs" />
     <Compile Include="Repositories\BankRepository.cs" />
     <Compile Include="Repositories\__Entity__Repository.cs" />
     <Compile Include="TreasuryBusiness.cs" />

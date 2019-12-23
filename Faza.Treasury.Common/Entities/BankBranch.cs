@@ -10,14 +10,22 @@ using System.Threading.Tasks;
 
 namespace Faza.Treasury.Common.Entities
 {
-    [Table("Bank", Schema = "Accounting")]
-    public class Bank : Entity, IAudited
+    [Table("BankBranch", Schema = "Accounting")]
+    public class BankBranch : Entity, IAudited
     {
-        [StringLength(100), Required]
+        [Required]
+        public int BankId { get; set; }
+        [StringLength(200), Required]
         public string Name { get; set; }
+        [StringLength(2000), Required]
+        public string Address { get; set; }
+        [StringLength(100), Required]
+        public string Code { get; set; }
         public bool Status { get; set; }
-        public DateTime CreationTime { get; set; }
+        [ForeignKey("BankId")]
+        public virtual Bank Bank { get; set; }
         public long? CreatorUserId { get; set; }
+        public DateTime CreationTime { get; set; }
         public long? LastModifierUserId { get; set; }
         public DateTime? LastModificationTime { get; set; }
     }

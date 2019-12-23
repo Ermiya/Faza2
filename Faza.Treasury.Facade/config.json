@@ -1,11 +1,1 @@
-{
-"Symbol":"Treasury",
-"ConnectionString":"",
-"Identity":{
-	"Url": "",
-	"Username":"",
-	"Password":"",
-	"Token":""
-	}
-
-}
+{"Symbol":"Treasury","ConnectionString":"data source=(localdb)\\MSSQLLocalDB;initial catalog=Treasury;Integrated Security=SSPI;MultipleActiveResultSets=True;App=EntityFramework","Identity":null}

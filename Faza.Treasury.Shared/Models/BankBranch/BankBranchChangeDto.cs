@@ -4,10 +4,12 @@ using System.Text;
 
 namespace Faza.Treasury.Shared.Models
 {
-    public class BankGetDto : BaseGetDto
+    public class BankBranchChangeDto : BaseChangeDto
     {
-        public int Id { get; set; }
+        public int BankId { get; set; }
         public string Name { get; set; }
+        public string Address { get; set; }
+        public string Code { get; set; }
         public bool Status { get; set; }
     }
 }
