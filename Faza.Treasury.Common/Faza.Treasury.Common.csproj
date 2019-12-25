@@ -51,7 +51,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\CurrencyType.cs" />
+    <Compile Include="Entities\AccountType.cs" />
     <Compile Include="Entities\Bank.cs" />
+    <Compile Include="Entities\BankAccount.cs" />
     <Compile Include="Entities\BankBranch.cs" />
     <Compile Include="Entities\__Entity__.cs" />
     <Compile Include="Interfaces\ITreasuryDataAdapter.cs" />

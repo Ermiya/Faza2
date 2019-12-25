@@ -22,6 +22,6 @@ namespace Faza.Treasury.Data.Contexts
 
             base.OnModelCreating(modelBuilder);
         }
-        public virtual DbSet<Bank> Banks { get; set; }        public virtual DbSet<BankBranch> BankBranchs { get; set; }        //--Entity public virtual DbSet<__EntityName__> __EntityNames__ { get; set; }
+        public virtual DbSet<Bank> Banks { get; set; }        public virtual DbSet<BankBranch> BankBranchs { get; set; }        public virtual DbSet<AccountType> AccountTypes { get; set; }        public virtual DbSet<CurrencyType> CurrencyTypes { get; set; }        public virtual DbSet<BankAccount> BankAccounts { get; set; }        //--Entity public virtual DbSet<__EntityName__> __EntityNames__ { get; set; }
     }
 }

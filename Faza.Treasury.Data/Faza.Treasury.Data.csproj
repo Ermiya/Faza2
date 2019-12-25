@@ -79,6 +79,10 @@
     <Compile Include="Migrations\201912231333246_AddBankBranchEntity.designer.cs">
       <DependentUpon>201912231333246_AddBankBranchEntity.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912251341103_AddBankAccount.cs" />
+    <Compile Include="Migrations\201912251341103_AddBankAccount.designer.cs">
+      <DependentUpon>201912251341103_AddBankAccount.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TreasuryDataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -92,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912231333246_AddBankBranchEntity.resx">
       <DependentUpon>201912231333246_AddBankBranchEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912251341103_AddBankAccount.resx">
+      <DependentUpon>201912251341103_AddBankAccount.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

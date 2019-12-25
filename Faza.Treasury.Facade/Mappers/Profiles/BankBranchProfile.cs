@@ -13,7 +13,11 @@ namespace Faza.Treasury.Facade.Mappers.Profiles
     {
         public BankBranchProfile()
         {
-            CreateMap<BankBranch, BankBranchGetDto>();
+            CreateMap<BankBranch, BankBranchGetDto>()
+                .ForMember(dest => dest.BankName, opt =>
+                    {
+                        opt.MapFrom(src => src.Bank.Name);
+                    });
             CreateMap<BankBranchAddDto, BankBranch>();
             CreateMap<BankBranchChangeDto, BankBranch>();
         }
