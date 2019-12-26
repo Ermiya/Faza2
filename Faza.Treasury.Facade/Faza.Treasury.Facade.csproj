@@ -91,16 +91,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\AccountTypeController.cs" />
     <Compile Include="Controllers\BankAccountController.cs" />
     <Compile Include="Controllers\BankBranchController.cs" />
     <Compile Include="Controllers\BankController.cs" />
+    <Compile Include="Controllers\CurrencyTypeController.cs" />
     <Compile Include="Filters\Authenticator.cs" />
     <Compile Include="Filters\Logger.cs" />
     <Compile Include="Mappers\AutoMapperConfig.cs" />
     <Compile Include="Mappers\AutoMapperExtensions.cs" />
+    <Compile Include="Mappers\Profiles\AccountTypeProfile.cs" />
     <Compile Include="Mappers\Profiles\BankAccountProfile.cs" />
     <Compile Include="Mappers\Profiles\BankBranchProfile.cs" />
     <Compile Include="Mappers\Profiles\BankProfile.cs" />
+    <Compile Include="Mappers\Profiles\CurrencyTypeProfile.cs" />
     <Compile Include="Mappers\Profiles\__Entity__Profile.cs" />
     <Compile Include="TreasuryConfiguration.cs" />
     <Compile Include="Controllers\__Entity__Controller.cs" />

@@ -22,7 +22,7 @@ namespace Faza.Treasury.Common.Entities
         public string AccountNo { get; set; }
         [Required]
         public int AccountTypeId { get; set; }
-        [Required,ForeignKey("AccountTypeId")]
+        [ForeignKey("AccountTypeId")]
         public virtual AccountType AccountType { get; set; }
         [Required]
         public int DetailedAccountId { get; set; }
@@ -35,7 +35,7 @@ namespace Faza.Treasury.Common.Entities
 
         [Required]
         public int CurrencyTypeId { get; set; }
-        [Required, ForeignKey("CurrencyTypeId")]
+        [ ForeignKey("CurrencyTypeId")]
         public virtual CurrencyType CurrencyType { get; set; }
         [StringLength(26)]
         public string AccountSheba { get; set; }
