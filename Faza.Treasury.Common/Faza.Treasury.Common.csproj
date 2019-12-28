@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Check.cs" />
     <Compile Include="Entities\CurrencyType.cs" />
     <Compile Include="Entities\AccountType.cs" />
     <Compile Include="Entities\Bank.cs" />

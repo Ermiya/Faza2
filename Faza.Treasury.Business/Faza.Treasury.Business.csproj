@@ -80,6 +80,7 @@
     <Compile Include="Repositories\BankAccountRepository.cs" />
     <Compile Include="Repositories\BankBranchRepository.cs" />
     <Compile Include="Repositories\BankRepository.cs" />
+    <Compile Include="Repositories\CheckRepository.cs" />
     <Compile Include="Repositories\CurrencyTypeRepository.cs" />
     <Compile Include="Repositories\__Entity__Repository.cs" />
     <Compile Include="TreasuryBusiness.cs" />

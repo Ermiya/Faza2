@@ -1,1 +1,5 @@
-{"Symbol":"Treasury","ConnectionString":"data source=(localdb)\\MSSQLLocalDB;initial catalog=Treasury;Integrated Security=SSPI;MultipleActiveResultSets=True;App=EntityFramework","Identity":null}
+{
+"Symbol":"Treasury",
+"ConnectionString":"data source=(localdb)\\MSSQLLocalDB;initial catalog=Treasury;IntegratedSecurity=SSPI;MultipleActiveResultSets=True;App=EntityFramework"
+
+}

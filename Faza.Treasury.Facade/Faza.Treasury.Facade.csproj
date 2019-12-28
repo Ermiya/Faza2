@@ -95,6 +95,7 @@
     <Compile Include="Controllers\BankAccountController.cs" />
     <Compile Include="Controllers\BankBranchController.cs" />
     <Compile Include="Controllers\BankController.cs" />
+    <Compile Include="Controllers\CheckController.cs" />
     <Compile Include="Controllers\CurrencyTypeController.cs" />
     <Compile Include="Filters\Authenticator.cs" />
     <Compile Include="Filters\Logger.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Mappers\Profiles\BankAccountProfile.cs" />
     <Compile Include="Mappers\Profiles\BankBranchProfile.cs" />
     <Compile Include="Mappers\Profiles\BankProfile.cs" />
+    <Compile Include="Mappers\Profiles\CheckProfile.cs" />
     <Compile Include="Mappers\Profiles\CurrencyTypeProfile.cs" />
     <Compile Include="Mappers\Profiles\__Entity__Profile.cs" />
     <Compile Include="TreasuryConfiguration.cs" />
@@ -114,6 +116,9 @@
   <ItemGroup />
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
