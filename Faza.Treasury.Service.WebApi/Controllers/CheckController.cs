@@ -26,5 +26,7 @@ namespace Faza.Treasury.Service.WebApi.Controllers
         public OperationResult<CheckGetDto> Change(int id, [FromBody] CheckChangeDto obj) => Controller.ChangeCheck(id, obj);
         [HttpDelete, Route("{id:int}")]
         public OperationResult<CheckGetDto> Remove(int id) => Controller.RemoveCheck(id);
+        [HttpPost, Route("AddRang")]
+        public List<CheckGetDto> AddRang([FromBody] CheckAddRangDto obj) => Controller.AddCheckRang(obj);
     }
 }

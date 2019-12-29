@@ -23,9 +23,9 @@ namespace Faza.Treasury.Common.Entities
         public int CheckBook { get; set; }
         [Required]
         public bool Status { get; set; }
-        public DateTime IssuingDate { get; set; }
-        public DateTime DeliveryDate { get; set; }
-        public DateTime CancelDate { get; set; }
+        public DateTime? IssuingDate { get; set; }
+        public DateTime? DeliveryDate { get; set; }
+        public DateTime? CancelDate { get; set; }
         public long? CreatorUserId { get; set; }
         public DateTime CreationTime { get; set; }
         public long? LastModifierUserId { get; set; }

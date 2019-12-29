@@ -87,6 +87,10 @@
     <Compile Include="Migrations\201912281741290_Add_Check.designer.cs">
       <DependentUpon>201912281741290_Add_Check.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912291859330_updatecheck.cs" />
+    <Compile Include="Migrations\201912291859330_updatecheck.designer.cs">
+      <DependentUpon>201912291859330_updatecheck.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="TreasuryDataAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -106,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912281741290_Add_Check.resx">
       <DependentUpon>201912281741290_Add_Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912291859330_updatecheck.resx">
+      <DependentUpon>201912291859330_updatecheck.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

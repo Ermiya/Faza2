@@ -22,6 +22,18 @@ namespace Faza.Treasury.Facade
         public CheckGetDto GetCheckById(int id) => GetById<Check, CheckGetDto>(id);
         //[Auth("Check_Add")]
         public CheckGetDto AddCheck(CheckAddDto obj) => Add<Check, CheckGetDto, CheckAddDto>(obj);
+        public List<CheckGetDto> AddCheckRang(CheckAddRangDto obj)
+        {
+            List<CheckGetDto> ListCheckGetDtos = new List<CheckGetDto>();
+            
+            var lst = Business.AddCheckRang(obj);
+            foreach (var item in lst)
+            {
+                ListCheckGetDtos.Add(Mapper.Map<CheckGetDto>(item));
+            }
+            //Mapper.Map<List<CheckGetDto>>(lst);
+            return Mapper.Map<List<CheckGetDto>>(lst); 
+        }
         //[Auth("Check_Change")]
         public CheckGetDto ChangeCheck(int id, CheckChangeDto obj) => Change<Check, CheckGetDto, CheckChangeDto>(id, obj);
         //[Auth("Check_Remove")]

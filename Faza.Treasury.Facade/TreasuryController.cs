@@ -54,7 +54,8 @@ namespace Faza.Treasury.Facade
 
         static TreasuryController()
         {
-            Configuration = LoadConfiguration<TreasuryConfiguration>(@"D:\MyProject\Faza2\Faza.Treasury.Facade\config.json");
+            //Configuration = LoadConfiguration<TreasuryConfiguration>(@"D:\MyProject\Faza2\Faza.Treasury.Facade\config.json");
+            Configuration = LoadConfiguration<TreasuryConfiguration>(@"C:\Users\lenovo\Source\Workspaces\Workspace\erp\Faza2\Faza.Treasury.Facade\config.json");
             var controller = new TreasuryController();
             controller.Configure();
         }
